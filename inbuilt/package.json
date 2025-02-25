@@ -1,0 +1,15 @@
+{
+  "name": "staticapi",
+  "version": "1.0.0",
+  "description": "this is about staticApi",
+  "main": "fs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node staticApi.js",
+    "dev":"nodemon server.js" ,
+    "akash":"node os.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
