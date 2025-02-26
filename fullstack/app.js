@@ -8,12 +8,19 @@ dotenv.config(); // Load environment variables from a .env file
 let port = process.env.PORT || 6700; // Set port from env variable or default to 6700
  
 
+ let categoryRouter = require('./src/controller/CategoryRouter');
+ let productRouter = require('./src/controller/productRouter');
 
+app.use('/category',categoryRouter);
+
+app.use('/product',productRouter);
 
 
 app.get('/',(req,res)=>{
     res.send('Hi from express');
 });
+
+
 
 app.get('/test',(req,res)=>{
     res.send('Hi from express test request');
