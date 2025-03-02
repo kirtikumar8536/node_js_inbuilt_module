@@ -24,9 +24,15 @@ const category =[
     }
 ];
 
-categoryRouter.route('/')
+function router(menu){
+
+    categoryRouter.route('/')
               .get((req,res)=>{
-                res.send(category);
+                // res.send(category);
+               // res.render('category',{title:'Category Page',data:category});
+               // using Destructuring concept 
+               res.render('category',{title:'Category Page', category,menu});
+                                                                       
               });
 
 categoryRouter.route('/details')
@@ -34,5 +40,9 @@ categoryRouter.route('/details')
                 res.send('Category Details');
               });
 
+        return categoryRouter;
+}
 
-module.exports = categoryRouter;
+module.exports = router;
+
+//module.exports = categoryRouter;

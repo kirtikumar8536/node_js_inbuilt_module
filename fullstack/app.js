@@ -10,9 +10,23 @@ let port = process.env.PORT || 6700; // Set port from env variable or default to
 let morgan = require('morgan');
 let fs = require('fs');
 
-let categoryRouter = require('./src/controller/CategoryRouter');
-let productRouter = require('./src/controller/productRouter');
-const { title } = require('process');
+// let categoryRouter = require('./src/controller/CategoryRouter');
+// let productRouter = require('./src/controller/productRouter');
+
+let menu = [
+  {
+    name:'Category',link:'/category'
+  },
+  {
+    name:'Product',link:'/product'
+  },
+  {
+    name:'Ticket',link:'/product'
+  },
+]
+
+let categoryRouter = require('./src/controller/CategoryRouter')(menu);
+let productRouter = require('./src/controller/productRouter')(menu);
 
 
 // Apply Morgan Middleware Before Routes
@@ -57,7 +71,7 @@ app.set('view engine', 'ejs');
 //default
 app.get('/',(req,res)=>{
    // res.send('Hi from express');
-   res.render('index', { title: 'Home Page', message: 'Welcome to EJS!' });
+   res.render('index', { title: 'Home Page', message: 'Welcome to EJS!' ,menu});
   
 });
 

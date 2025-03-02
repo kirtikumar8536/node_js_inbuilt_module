@@ -514,15 +514,23 @@ const product = [
     }
 ];
 
-
-productRouter.route('/')
-              .get((req,res)=>{
-                res.send(product);
-              });
+function router(menu){
+    productRouter.route('/')
+    .get((req,res)=>{
+   //   res.send(product);
+      // using Destructuring concept 
+     res.render('product',{title:'Product Page', product,menu});
+                                                             
+    });
 
 productRouter.route('/details')
-              .get((req,res)=>{
-                res.send('product Details');
-              });
+    .get((req,res)=>{
+      res.send('product Details');
+    });
 
-module.exports = productRouter;
+    return productRouter; 
+}
+
+
+//module.exports = productRouter;
+module.exports = router;

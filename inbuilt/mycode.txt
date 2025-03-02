@@ -1,0 +1,83 @@
+this is my data
+🔹 Basic Questions
+What is the fs module in Node.js? Why is it used?
+How do you read a file synchronously and asynchronously in Node.js?
+Provide an example using fs.readFileSync() and fs.readFile().
+What is the difference between fs.writeFile() and fs.appendFile()?
+How do you check if a file exists in Node.js?
+What is the difference between fs.rename() and fs.renameSync()?
+How do you delete a file in Node.js?
+How do you create a directory using the fs module?
+What is the difference between fs.mkdir() and fs.mkdirSync()?
+🔹 Advanced Questions
+What are the different ways to read a file in chunks instead of loading it all at once?
+What is the difference between fs.stat() and fs.lstat()?
+How does the fs.createReadStream() method work?
+How do you watch for changes in a file using the fs module?
+What is the difference between fs.unlink() and fs.rm()?
+How do you handle file permissions in Node.js (chmod, chown)?
+What is fs.promises and why is it useful?
+🔹 Real-Time Scenario-Based Questions
+How would you efficiently read a large file (e.g., 1GB) in Node.js?
+You need to process a log file in real time as it's being written. How would you do it?
+How do you handle errors when reading or writing files in Node.js?
+How can you copy a file from one location to another using the fs module?
+How do you list all files inside a directory using the fs module?
+
+------------------------------------------------------------------------------------------
+
+this is my data
+🔹 Basic Questions
+What is the fs module in Node.js? Why is it used?
+How do you read a file synchronously and asynchronously in Node.js?
+Provide an example using fs.readFileSync() and fs.readFile().
+What is the difference between fs.writeFile() and fs.appendFile()?
+How do you check if a file exists in Node.js?
+What is the difference between fs.rename() and fs.renameSync()?
+How do you delete a file in Node.js?
+How do you create a directory using the fs module?
+What is the difference between fs.mkdir() and fs.mkdirSync()?
+🔹 Advanced Questions
+What are the different ways to read a file in chunks instead of loading it all at once?
+What is the difference between fs.stat() and fs.lstat()?
+How does the fs.createReadStream() method work?
+How do you watch for changes in a file using the fs module?
+What is the difference between fs.unlink() and fs.rm()?
+How do you handle file permissions in Node.js (chmod, chown)?
+What is fs.promises and why is it useful?
+🔹 Real-Time Scenario-Based Questions
+How would you efficiently read a large file (e.g., 1GB) in Node.js?
+You need to process a log file in real time as it's being written. How would you do it?
+How do you handle errors when reading or writing files in Node.js?
+How can you copy a file from one location to another using the fs module?
+How do you list all files inside a directory using the fs module?
+----------------------------------------------------------------------------------------
+
+this is my data
+
+🔹 Basic Questions
+What is the fs module in Node.js? Why is it used?
+How do you read a file synchronously and asynchronously in Node.js?
+Provide an example using fs.readFileSync() and fs.readFile().
+What is the difference between fs.writeFile() and fs.appendFile()?
+How do you check if a file exists in Node.js?
+What is the difference between fs.rename() and fs.renameSync()?
+How do you delete a file in Node.js?
+How do you create a directory using the fs module?
+What is the difference between fs.mkdir() and fs.mkdirSync()?
+
+🔹 Advanced Questions
+What are the different ways to read a file in chunks instead of loading it all at once?
+What is the difference between fs.stat() and fs.lstat()?
+How does the fs.createReadStream() method work?
+How do you watch for changes in a file using the fs module?
+What is the difference between fs.unlink() and fs.rm()?
+How do you handle file permissions in Node.js (chmod, chown)?
+What is fs.promises and why is it useful?
+
+🔹 Real-Time Scenario-Based Questions
+How would you efficiently read a large file (e.g., 1GB) in Node.js?
+You need to process a log file in real time as it's being written. How would you do it?
+How do you handle errors when reading or writing files in Node.js?
+How can you copy a file from one location to another using the fs module?
+How do you list all files inside a directory using the fs module?
